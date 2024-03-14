@@ -41,3 +41,23 @@ body {
     color: purple;
 }
 
+.intro {
+     display: flex;
+     flex: 1;
+     
+}
+
+.intro p {
+    margin: 2%;
+}
+
+.intro :nth-child(1) {
+    background-color: lightblue;
+}
+
+.intro :nth-child(2) {
+    background-color: lightcyan;
+}
+.intro :nth-child(3) {
+    background-color: lightsalmon;
+}
